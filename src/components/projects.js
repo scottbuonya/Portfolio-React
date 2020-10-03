@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardText } from 'react-mdl'
-import './Projects.css'
+
 
 
 class Project extends Component {
@@ -19,8 +19,8 @@ class Project extends Component {
                         This project was a group collaboration meant to brighten up your day!
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/scottbuonya/LifeJuice" target="_blank">Github</a></Button>
-                        <Button colored><a href="https://scottbuonya.github.io/LifeJuice/" target="_blank">Life Juice</a></Button>
+                        <Button colored><a href="https://github.com/scottbuonya/LifeJuice" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                        <Button colored><a href="https://scottbuonya.github.io/LifeJuice/" target="_blank" rel="noopener noreferrer">Life Juice</a></Button>
                     </CardActions>
                     
                 </Card>
@@ -34,8 +34,8 @@ class Project extends Component {
                         This project was a group collaboration on the first generation Pokemon!
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/sharkattack182/project-2" target="_blank">Github</a></Button>
-                        <Button colored><a href="https://vast-escarpment-44555.herokuapp.com/" target="_blank">Pokedex</a></Button>
+                        <Button colored><a href="https://github.com/sharkattack182/project-2" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                        <Button colored><a href="https://vast-escarpment-44555.herokuapp.com/" target="_blank" rel="noopener noreferrer">Pokedex</a></Button>
                     </CardActions>
                 </Card>
             )
@@ -48,8 +48,8 @@ class Project extends Component {
                         This application is designed to help you take notes and save or delete!
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/scottbuonya/Note_taker" target="_blank">Github</a></Button>
-                        <Button colored><a href="https://fierce-lowlands-71806.herokuapp.com/" target="_blank">Note Taker</a></Button>
+                        <Button colored><a href="https://github.com/scottbuonya/Note_taker" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                        <Button colored><a href="https://fierce-lowlands-71806.herokuapp.com/" target="_blank" rel="noopener noreferrer">Note Taker</a></Button>
                     </CardActions>
                 </Card>
             )
@@ -62,8 +62,8 @@ class Project extends Component {
                         This application helps you create a schedule for the 9-5 day!
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/scottbuonya/Day-Scheduler-" target="_blank">Github</a></Button>
-                        <Button colored><a href="https://scottbuonya.github.io/Day-Scheduler-/" target="_blank">Day Planner</a></Button>
+                        <Button colored><a href="https://github.com/scottbuonya/Day-Scheduler-" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                        <Button colored><a href="https://scottbuonya.github.io/Day-Scheduler-/" target="_blank" rel="noopener noreferrer">Day Planner</a></Button>
                     </CardActions>
                 </Card>
             )
@@ -76,8 +76,8 @@ class Project extends Component {
                         This application helps keep tracks of the exercises you do and gives you stats!
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/scottbuonya/Fitness-Tracker" target="_blank">Github</a></Button>
-                        <Button colored><a href="https://rocky-garden-76958.herokuapp.com/" target="_blank">Fitness Tracker</a></Button>
+                        <Button colored><a href="https://github.com/scottbuonya/Fitness-Tracker" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                        <Button colored><a href="https://rocky-garden-76958.herokuapp.com/" target="_blank" rel="noopener noreferrer">Fitness Tracker</a></Button>
                     </CardActions>
                 </Card>
             )
