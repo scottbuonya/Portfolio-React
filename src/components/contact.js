@@ -13,7 +13,7 @@ class Contact extends Component {
                         <h2>Scott Buonya</h2>
                         <img 
                         src={Scott1} 
-                        alt="Picutre of Scott Buonya"
+                        alt="Scott Buonya"
                         style={{height: '250px'}}
                         />
                         <p style={{ width: '75', margin: 'auto', paddingTop: '1em'}}>Feel free to contact me about anything!</p>
