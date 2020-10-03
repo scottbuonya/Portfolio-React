@@ -25,19 +25,19 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem> {/*Phone Number */}
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                         <i className="fa fa-phone-square" aria-hidden="true"/>
                                         704-993-8200
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem> {/*Email */}
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fas fa-envelope-square" aria-hidden="true"/>
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
+                                        <i className="fas fa-envelope" aria-hidden="true"/>
                                         <a href="mailto:scottbuonya@gmail.com">scottbuonya@gmail.com</a>
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem> {/*Linkedin */}
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                         <i className="fab fa-linkedin" aria-hidden="true" />
                                         <a href="https://www.linkedin.com/in/scottbuonya/" rel="noopener noreferrer" target="_blank">Linkedin</a>
                                     </ListItemContent>
