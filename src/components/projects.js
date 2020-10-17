@@ -81,10 +81,19 @@ class Project extends Component {
                     </CardActions>
                 </Card>
             )
-            {/*Project 3 TBA */}
+            {/*Ampli-Fi */}
         } else if(this.state.activeTab === 5){
             return(
-                <div><h2>This page will be reserved for Project 3</h2></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{ height: '176px', background: 'url(https://raw.githubusercontent.com/scottbuonya/project-3-new/master/imgs/amplifi-home.PNG) center / cover'}} ></CardTitle>
+                    <CardText>
+                        This application will give you satisfying content and inform you about mental health!
+                    </CardText>
+                    <CardActions border>
+                        <Button colored><a href="https://github.com/scottbuonya/project-3-new" target="_blank" rel="noopener noreferrer">Github</a></Button>
+                        <Button colored><a href="https://morning-brushlands-30594.herokuapp.com/" target="_blank" rel="noopener noreferrer">Ampli-Fi</a></Button>
+                    </CardActions>
+                </Card>
             )
         }
     }
@@ -99,7 +108,7 @@ class Project extends Component {
                     <Tab>Note Taker</Tab>
                     <Tab>Day Planner</Tab>
                     <Tab>Fitness Tracker</Tab>
-                    <Tab>TBA</Tab>    
+                    <Tab>Ampli-Fi</Tab>    
                 </Tabs>
 
                 <section className="projects-grid">
