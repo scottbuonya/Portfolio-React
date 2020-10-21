@@ -91,7 +91,7 @@ class Project extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/scottbuonya/project-3-new" target="_blank" rel="noopener noreferrer">Github</a></Button>
-                        <Button colored><a href="https://morning-brushlands-30594.herokuapp.com/" target="_blank" rel="noopener noreferrer">Ampli-Fi</a></Button>
+                        <Button colored><a href="https://evening-fortress-92707.herokuapp.com/" target="_blank" rel="noopener noreferrer">Ampli-Fi</a></Button>
                     </CardActions>
                 </Card>
             )

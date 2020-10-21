@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pdf from '../resume/Resume.pdf'
+import pdf from '../resume/Resume-Scott-Buonya.pdf'
 import { Card, CardTitle, CardActions, Button, CardText } from 'react-mdl'
 
 class Resume extends Component {
