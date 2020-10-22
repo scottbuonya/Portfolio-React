@@ -10,7 +10,7 @@ class Project extends Component {
     }
 
     toggleCategories() {
-    {/*Project lifeJuice */}
+    /*Project lifeJuice */
         if(this.state.activeTab === 0){
             return(
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -25,7 +25,7 @@ class Project extends Component {
                     
                 </Card>
             )
-            {/*Pokedex */}
+            /*Pokedex */
         } else if(this.state.activeTab === 1){
             return(
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -39,7 +39,7 @@ class Project extends Component {
                     </CardActions>
                 </Card>
             )
-            {/*Note Taker */}
+            /*Note Taker */
         } else if(this.state.activeTab === 2){
             return(
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -53,7 +53,7 @@ class Project extends Component {
                     </CardActions>
                 </Card>
             )
-            {/*Day Planner */}
+            /*Day Planner */
         } else if(this.state.activeTab === 3){
             return(
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -67,7 +67,7 @@ class Project extends Component {
                     </CardActions>
                 </Card>
             )
-            {/*Fitness Tacker */}
+            /*Fitness Tacker */
         } else if(this.state.activeTab === 4){
             return(
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -81,7 +81,7 @@ class Project extends Component {
                     </CardActions>
                 </Card>
             )
-            {/*Ampli-Fi */}
+            /*Ampli-Fi */
         } else if(this.state.activeTab === 5){
             return(
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
